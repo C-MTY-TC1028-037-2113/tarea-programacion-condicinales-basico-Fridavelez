@@ -5,11 +5,11 @@ def main():
     #Escribe aquí tu código...
 
     if lado1 == lado2 and lado2 == lado3 :
-        print("Es un triangulo equilatero")
+        print("ES UN TRIANGULO EQUILATERO")
     elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3 :
-        print("Es un triangulo isoseles")
+        print("ES UN TRIANGULO ISOSCELES")
     else:
-        print("Es un triangulo escaleno")
+        print("ES UN TRIANGULO ESCALENO")
 
 if  __name__=='__main__':
     main()

@@ -5,7 +5,7 @@ def main():
 
 
    if edad >= 18:
-      identificacion = str(input("¿Tienes identificación oficial? (s/n): "))
+      identificacion = (input("¿Tienes identificación oficial? (s/n): "))
       if identificacion == "s" or "S":
           print("Tramite de licencia concedido")
       elif identificacion == "n" or "N":

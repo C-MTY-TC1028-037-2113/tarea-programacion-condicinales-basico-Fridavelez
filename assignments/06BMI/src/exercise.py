@@ -5,19 +5,19 @@ def main():
  peso = float(input("Ingresa tu peso (kg):"))
 
  imc = peso / ((altura/100) * (altura/100))
-
+ 
  if imc <= 1:
-    print("Revise sus datos, alguno esta erroneo")
+    print("Revisa tus datos, alguno de ellos es erróneo.")
  elif imc < 20 :
-    print("Usted esta en el PESO BAJO")
+    print("PESO BAJO")
  elif imc < 25 :
-    print("Usted esta en el PESO NORMAL")
+    print("PESO NORMAL")
  elif imc < 30 :
-    print("Usted esta en el SOBRE PESO")
+    print("SOBRE PESO")
  elif imc < 35 :
-    print("Usted esta en la OBESIDAD")
+    print("OBESIDAD")
  elif imc < 40 :
-    print("Usted esta en la OBESIDAD MORBIDA")
+    print("OBESIDAD MORBIDA")
  
 
 

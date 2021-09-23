@@ -8,8 +8,12 @@ def main():
         print("ES UN TRIANGULO EQUILATERO")
     elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3 :
         print("ES UN TRIANGULO ISOSCELES")
-    else:
+    elif lado1 != lado2 and lado1 != lado3 and lado2 != lado3:
         print("ES UN TRIANGULO ESCALENO")
+    else:
+        print("NO ES UN TRIANGULO")
+        
 
 if  __name__=='__main__':
     main()
+ 

@@ -5,6 +5,7 @@ def main():
  altura = float(input("Altura en m: "))
  
  imc = peso/(altura**2)
+ 
  if imc <=0:
     print("Revisa tus datos, alguno de ellos es erróneo.")
  if imc < 20 :

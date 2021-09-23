@@ -1,9 +1,9 @@
 def main():
     #escribe tu código abajo de esta línea
-
- altura = float(input("Altura en m:"))
+ 
  peso = float(input("Peso en kg:"))
-
+ altura = float(input("Altura en m:"))
+ 
  imc = peso / ((altura/100) * (altura/100))
  
  if imc <= 1:

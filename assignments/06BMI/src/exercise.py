@@ -14,7 +14,7 @@ def main():
  elif imc < 25 :
     print("NORMAL")
  elif imc < 30 :
-    print("SOBRE PESO")
+    print("SOBREPESO")
  elif imc < 35 :
     print("OBESIDAD")
  elif imc < 40 :

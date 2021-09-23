@@ -12,7 +12,7 @@ def main():
  if imc < 20 :
     print("PESO BAJO")
  elif imc < 25 :
-    print("PESO NORMAL")
+    print("NORMAL")
  elif imc < 30 :
     print("SOBRE PESO")
  elif imc < 35 :
@@ -21,7 +21,7 @@ def main():
     print("OBESIDAD MORBIDA")
 
 
-     
+      
 
 
 if __name__=='__main__':

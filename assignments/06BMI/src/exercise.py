@@ -19,7 +19,7 @@ def main():
      print("SOBREPESO")
     elif imc >=30 and imc < 40 :
      print("OBESIDAD")
-    elif imc < 40 :
+    elif imc > 40 :
      print("OBESIDAD MORBIDA")
 
 

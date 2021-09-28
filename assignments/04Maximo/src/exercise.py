@@ -1,9 +1,9 @@
 def main():
     #escribe tu código abajo de esta línea
 
-    x = float(input("Ingresa el primer número: "))
-    y = float(input("Ingresa el segundo número: "))
-    z = float(input("Ingresa el tercer número: "))
+    x = int(input("Ingresa el primer número: "))
+    y = int(input("Ingresa el segundo número: "))
+    z = int(input("Ingresa el tercer número: "))
 
     if x > z and x > y:
         print(x)

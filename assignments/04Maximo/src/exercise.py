@@ -1,16 +1,16 @@
 def main():
     #escribe tu código abajo de esta línea
 
-    num1 = float(input("Ingresa el primer número: "))
-    num2 = float(input("Ingresa el segundo número: "))
-    num3 = float(input("Ingresa el tercer número:"))
+    x = float(input("Ingresa el primer número: "))
+    y = float(input("Ingresa el segundo número: "))
+    z = float(input("Ingresa el tercer número: "))
 
-    if num1 > num3 and num1 > num2:
-        print(num1)
-    elif num2 > num1 and num2 > num3:
-        print(num2)
-    elif num3 > num2 and num3 > num1:
-        print(num3)
+    if x > z and x > y:
+        print(x)
+    elif y > x and y > z:
+        print(y)
+    elif z > y and z > x:
+        print(z)
     
 if __name__=='__main__':
     main()

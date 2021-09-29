@@ -13,7 +13,7 @@ def main():
       elif lado1 != lado2 and lado1 != lado3 and lado2 != lado3:
             print("ES UN TRIANGULO ESCALENO")
     else:
-        print('NO ES UN TRIANGULO')
+        print('NO ES TRIANGULO')
 
      
     
